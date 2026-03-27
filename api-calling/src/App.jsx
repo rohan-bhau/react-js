@@ -32,8 +32,8 @@ const App = () => {
       <button className='counter' onClick={getData3}>Get Data 3</button>
       <div>
         {
-          data.map(function () {
-            return <h2>hello</h2>
+          data.map(function (elem,idx) {
+            return <h2>hello{ idx}</h2>
           })
         }
       </div>
