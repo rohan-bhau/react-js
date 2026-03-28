@@ -1,0 +1,30 @@
+*{
+  color: white;
+}
+
+h1{
+  font-size: 100px;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  /* height: 100vh; */
+  /* transform: scaleX(50%, 50%); */
+  /* transform: scale(50%, 50%); */ */
+
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #0bb0b9;
+}
+
+.navbar div{
+  display: flex;
+  gap: 10px;
+}
